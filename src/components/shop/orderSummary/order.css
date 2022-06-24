@@ -1,0 +1,68 @@
+.order-item-image{
+    width: 214px;
+    height: 250px;
+    border-radius:  25px 25px 0 0;
+}
+.order-item-details{
+    padding: 9px;
+    width: 196px;
+    color: white;
+    background-color: rgba(0, 0, 12, 0.959);
+    border-radius: 0 0 25px 25px;
+}
+.order-item-name{
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.item-quantity{
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: center;
+    padding: 2px;
+}
+.order-item-price{
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.orders-items-only{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    height: 400px;
+    overflow-y: scroll;
+    
+}
+.orders__heading{
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    text-align: center;
+}
+.total-price{
+    font-family: monospace;
+    font-size: 22px;
+    margin-top: 10px;
+    color: rgb(36, 34, 36);
+}
+.order-btn-open{
+    border-radius: 25px 25px 25px 25px ;
+    border: 1px solid rgb(158, 158, 158);
+    cursor: pointer;
+    font-size: 40px;
+    margin-top: 15px;
+    background-color: transparent;
+    width:508px;
+    height: 350px;
+    margin-right: 150px;
+    margin-top: 50px;
+  
+  
+}
+.order-btn-open:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,45 @@
+.comfirmation{
+    background-color: rgba(0, 0, 0, 0.774);
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    z-index: 1;
+    height: 100vh;
+   
+}
+.msg-container{
+    display: grid;
+    justify-content: center;
+    top: 50%;
+    position: relative;
+    transform: translatey(-50%);
+}
+.msg{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    width: 1100px;
+}
+.first-msg{
+    font-size: 70px;
+    margin-bottom: 5px;
+}
+.sub-msg{
+    font-size: 40px;
+    letter-spacing: .3px;
+    margin-bottom: 50px;
+}
+.footer-msg{
+    font-size:45px;
+    color: yellow;
+    text-transform: capitalize;
+}
+.comfirmation a{
+    position: absolute;
+    left: -20px;
+    color: white;
+    font-size: 20px;
+    
+}

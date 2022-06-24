@@ -1,0 +1,52 @@
+
+.shop-page {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  min-height: 100vh;
+  height: 100%;
+}
+.products-container{
+  display: flex;  
+  width: 70vw;
+
+}
+.textt{
+  color: white;
+  font-size: 50px;
+}
+.nav__cart-close{
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color: rgb(216, 0, 0);
+  font-size: 20px;
+}
+.nav__cart-open:hover{
+  cursor: pointer;
+}
+
+ .shop-container{
+  display: flex;
+  justify-content: space-between;
+} 
+.cateogires{
+  margin-left: 10vw;
+  display: flex;
+}
+#yo{
+  color: white;
+  top: 20px;
+}
+.shop-cat-container{
+  display: flex;
+  justify-content: space-between;
+}
+.shirts{
+  float: right;
+}
+.navbb{
+  color: black;
+}
+.shop-page .categories{
+  margin-left:96px;
+  margin-right: 200px;
+ }

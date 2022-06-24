@@ -1,0 +1,54 @@
+.form-container {
+  position: absolute;
+}
+
+.checkout__subheading {
+  font-family: sans-serif;
+  font-size: 45px;
+}
+
+.checkout__label {
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-left: 25px;
+}
+.checkout__input {
+  width: 250px;
+  height: 30px;
+  text-align: center;
+  border-radius: 25px 25px 25px 25px;
+  border: none;
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 25px;
+  margin-top: 5px;
+}
+.checkout__form {
+  display: grid;
+}
+.form__container {
+  display: grid;
+  margin-left: 20px;
+}
+.checkout__btn-confirm {
+  width: 300px;
+  height: 55px;
+  border-radius: 25px 25px 25px 25px;
+  border: none;
+  background-color: rgb(0, 60, 255);
+  color: rgb(248, 244, 244);
+  font-family: sans-serif;
+  font-size: 25px;
+  margin-top: 20px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.checkout__btn-confirm:hover {
+  cursor: pointer;
+  font-size: 26px;
+  width: 301px;
+  height: 56px;
+  background-color: rgb(5, 54, 214);
+}
+
