@@ -1,3 +1,9 @@
+# The Future Is Aesthetic
+an e-commerce store created with react app.
+
+## Features
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
