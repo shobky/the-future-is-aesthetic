@@ -1,8 +1,11 @@
 # The Future Is Aesthetic
-an e-commerce store created with react app.
+A fullstack e-commerce store created with react app.
 
 ## Features
-
+* Dashboard and API implemented by Commerce.js external API
+* Automatic mailing service implemented by Email.js
+* SPA by React-Router
+* Fully functional Cart with Add to Cart functionality 
 
 # Getting Started with Create React App
 
